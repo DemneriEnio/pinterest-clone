@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"/>
+
+<style>
+body{
+	text-align: center;
+}
+.row{
+	border-bottom: 1px solid black;
+	background-color: #989898;
+}
+h2{
+	float: left !important;
+	margin-left: 80px;
+}
+h2:hover{
+	color: blue;
+	cursor: pointer;
+}
+#logout{
+	margin-left: 800px;
+}
+#image_link{
+	width: 500px;
+	height: 35px;
+	font-size: 15px;
+	margin-top: 20px;
+}
+</style>
+
+</head>
+<body>
+	<div class='row'>
+		<a><h2>Home</h2></a>
+		<a><h2>Profile</h2></a>
+		<a><h2 id='logout'>Logout</h2></a>
+	</div>	
+	
+	<input accept='image/*' placeholder='Enter an image link' id='image_link'></input>
+	<button class='btn btn-default'>Upload</button>
+	
+
+</body>
+</html>

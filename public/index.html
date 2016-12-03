@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"/>
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src='main.js'></script>
+	</head>
+
+	<style>
+
+	body {
+		text-align: center;
+		margin-top: 170px;
+		background-image: url("photo.png");
+	}
+
+	h1 {
+		font-size: 45px;
+		margin-bottom: 15px;
+	}
+
+	#inputs{
+		padding: 20px;
+		font-size: 17px;
+	}
+
+	#buttons {
+		padding: 5px;
+	}
+
+	#enter {
+		border: 1px solid black;
+		margin-left: 400px;
+		margin-right: 400px;
+		padding: 25px;
+		background-color: rgba(105,100,100,0.8);
+	}
+
+	</style>
+
+	<body>
+		<div class='container-fluid'>
+			<h1>Pinterest Clone</h1>
+			<div id='enter'>
+				<div class='row' id='inputs'>
+					<input type='text' placeholder='Email address' id='email'></input>
+					<input type='password' placeholder='Password' id='password'></input>
+				</div>
+	
+				<div class='row' id='buttons'>
+					<button id='login' class='btn btn-success'>Log In</button>
+					<button id='sign_up' class='btn btn-primary'>Sign Up</button>
+					<button id='twitter' class='btn btn-info'><i class='fa fa-twitter'>Sign In with Twitter</i></button>
+				</div>
+			
+			</div>
+		
+			<p id='result'></p>
+		</div>		
+	</body>
+</html>
